@@ -3,50 +3,473 @@ title: Document Processing Prompts
 description: 15+ prompts for summarization, extraction, and document analysis
 ---
 
-# Document Processing Prompts
+**Stop reading documents manually. Let AI process them for you.**
 
-**Coming soon - comprehensive document processing prompts.**
+---
 
-In the meantime, use these quick starters:
+## Summaries & Overviews
 
-## Quick Document Summary
+### 1. Executive Summary
+**Use case**: Long report/document, need quick overview
+
+**Time saved**: 15-20 minutes per document
+
 ```
-Summarize this document in 5 bullet points covering:
-- What this document is about
-- Key takeaways or main points
-- Any important numbers, dates, or deadlines
-- Anything surprising or noteworthy
-- What action (if any) this requires
+Summarize this document as an executive would read it:
+
+1. **What this is** (one sentence)
+2. **Why it matters** (2-3 sentences)
+3. **Key points** (5-7 bullets, specific)
+4. **Action required** (if any - what, who, when)
+5. **Deadline** (if mentioned)
+6. **Bottom line** (one sentence - recommend/skip/escalate)
+
+Be specific - include numbers and dates where relevant.
 
 [paste or upload document]
 ```
 
-## Extract Specific Information
+### 2. Meeting-Ready Brief
+**Use case**: Read document before meeting in 2 hours
+
 ```
-I'm uploading a [document type]. Please extract:
-- [Specific item 1]
-- [Specific item 2]
-- [Specific item 3]
+I have a meeting about this document in [X hours/minutes].
 
-For each item, provide the information and page number.
+Prepare me with:
+- Topic (what this document is about)
+- Context (why it exists, who created it)
+- Key arguments or proposals
+- Data points I should remember
+- Likely discussion points
+- Questions I should ask
+- My recommended position
 
-[upload document]
+Format as brief I can review in 5 minutes.
+
+[paste or upload document]
 ```
 
-## Compare Multiple Documents
+### 3. Distill to Action Items
+**Use case**: Long email thread or document with buried action items
+
 ```
-I'm uploading [X] documents about [topic].
+Extract all action items from this document:
 
-Compare them across these dimensions:
-- [Dimension 1]
-- [Dimension 2]
-- [Dimension 3]
+For each action item:
+- Action: [what needs to be done]
+- Owner: [who should do it]
+- Deadline: [when, if mentioned]
+- Priority: [based on context]
+- Status: [pending/in progress/done if mentioned]
 
-Format as a comparison table with a recommendation.
+Also flag:
+- Missing owners (action mentioned but no one assigned)
+- Missing deadlines (action mentioned but no timeframe)
 
-[upload all documents]
+[paste or upload document]
 ```
 
 ---
 
-**For full document processing strategies, see**: [Document Processing Guide](../daily-essentials/document-processing)
+## Extraction & Analysis
+
+### 4. Data Extraction to Table
+**Use case**: Document has scattered information, need it structured
+
+```
+Extract information from this document and create a table:
+
+Columns:
+- [Column 1 name]: [what to extract]
+- [Column 2 name]: [what to extract]
+- [Column 3 name]: [what to extract]
+
+For each row:
+- Include page number for reference
+- Note if information is missing or unclear
+- Flag any inconsistencies
+
+[paste or upload document]
+```
+
+### 5. Risk & Concern Analysis
+**Use case**: Contract, proposal, or plan - need to identify risks
+
+```
+Analyze this [contract/proposal/plan] for risks and concerns:
+
+**Red Flags** (deal-breakers):
+- Major issues that could block this
+- Legal/financial exposure
+- Unrealistic commitments
+
+**Yellow Flags** (concerns to address):
+- Items needing clarification
+- Potential problems
+- Missing information
+
+**Green Flags** (positive indicators):
+- Strong points
+- Favorable terms
+- Competitive advantages
+
+For each flag:
+- Page number
+- Specific quote
+- Why it matters
+- Suggested action
+
+[paste or upload document]
+```
+
+### 6. Compare vs Requirements
+**Use case**: Proposal/vendor document vs your requirements checklist
+
+```
+I have requirements for [project/vendor/solution].
+
+Requirements:
+- [Requirement 1]: [details]
+- [Requirement 2]: [details]
+- [Requirement 3]: [details]
+
+Review this document and create gap analysis:
+
+| Requirement | Met? | Evidence (page #) | Gap/Concern |
+|-------------|------|------------------|-------------|
+
+Also provide:
+- Compliance score (% of requirements met)
+- Major gaps
+- Clarifying questions to ask
+- Recommendation (approve/reject/request changes)
+
+[paste or upload document]
+```
+
+### 7. Key Quote Extraction
+**Use case**: Long document, need memorable quotes for presentation
+
+```
+Extract the most important quotes from this document:
+
+Find 5-7 quotes that:
+- Capture main arguments or findings
+- Are quotable (clear, impactful)
+- Could be used in a presentation or summary
+
+For each quote:
+- The quote (exact text)
+- Context (what section, why it matters)
+- Page number
+- How I could use it (presentation/email/report)
+
+[paste or upload document]
+```
+
+---
+
+## Comparison & Synthesis
+
+### 8. Multi-Document Comparison
+**Use case**: 3+ similar documents, need to compare
+
+```
+I'm uploading [X] documents about [topic]:
+
+Document 1: [brief description]
+Document 2: [brief description]
+Document 3: [brief description]
+
+Compare across:
+- [Dimension 1]
+- [Dimension 2]
+- [Dimension 3]
+
+Create comparison table showing:
+- Where they align (consensus)
+- Where they diverge (differences)
+- Unique points each makes
+
+Then recommend:
+- Which document(s) are most credible
+- What synthesized view emerges
+- What gaps or questions remain
+
+[upload all documents]
+```
+
+### 9. Research Synthesis
+**Use case**: Read multiple sources, need consolidated insights
+
+```
+Synthesize insights from these research documents:
+
+Topic: [what you're researching]
+Question I'm trying to answer: [specific question]
+
+Documents: [upload multiple]
+
+Provide:
+
+**Consensus Findings** (what sources agree on):
+- [Theme 1]: [synthesis] - Sources: [list]
+- [Theme 2]: [synthesis] - Sources: [list]
+
+**Divergent Views** (where sources disagree):
+- [Topic]: Source A says [X], Source B says [Y]
+- Why the difference matters
+
+**Key Data Points**:
+| Stat/Fact | Source | Page # |
+
+**Answer to My Question**:
+Based on synthesis, here's what the research says...
+
+**Gaps**:
+What we still don't know, additional research needed
+```
+
+### 10. Version Comparison
+**Use case**: Two versions of same document, what changed?
+
+```
+Compare Version 1 vs Version 2 of this document:
+
+[Upload both versions]
+
+Show:
+
+**Added** (new content in V2):
+- Section/paragraph
+- What was added
+- Why it matters
+
+**Removed** (cut from V1):
+- What was removed
+- Potential impact
+
+**Changed** (modified text):
+- Original wording
+- New wording
+- Significance of change
+
+**Summary**:
+- Overall direction of changes
+- Major vs minor edits
+- Recommendation (accept/reject/negotiate)
+```
+
+---
+
+## Specialized Processing
+
+### 11. Legal/Contract Review (Non-Lawyer Summary)
+**Use case**: Contract from vendor/client, need plain-English summary
+
+```
+Summarize this contract for a non-lawyer:
+
+**The Deal**:
+- What we're agreeing to
+- What they're agreeing to
+- How long it lasts
+
+**Money**:
+- What we pay
+- Payment schedule
+- What happens if we don't pay
+
+**Risks**:
+- Our liability
+- Their liability
+- Termination clauses
+
+**Notable Terms**:
+- Anything unusual or concerning
+- Auto-renewal clauses
+- Exclusivity or restrictions
+
+**Questions for Legal Team**:
+- What needs clarification
+- What might be negotiable
+
+[paste or upload contract]
+```
+
+**Disclaimer**: AI is not a lawyer. Always get legal review for actual contracts.
+
+### 12. Technical Document Translation
+**Use case**: Technical spec written for engineers, need it for non-technical audience
+
+```
+Translate this technical document for [non-technical audience]:
+
+[paste or upload document]
+
+Rewrite as:
+- Plain language (no jargon or explain jargon)
+- What it means for [business/users/customers]
+- Why it matters
+- What changes for them
+
+Format: Executive brief
+Tone: Accessible but not condescending
+```
+
+### 13. Meeting Pre-Read Synthesis
+**Use case**: 5 documents to read before tomorrow's board meeting
+
+```
+I have a meeting tomorrow and need to read these documents:
+
+[Upload all meeting materials]
+
+Synthesize into one pre-read brief:
+
+**Meeting Context**: What we're discussing
+
+**Key Documents Summary**: One paragraph per document
+
+**Major Decisions Required**: What we need to decide
+
+**Points of Disagreement**: Where documents conflict or present options
+
+**My Recommended Position**: Based on the materials
+
+**Questions to Ask**: What's not addressed in these docs
+
+**Potential Outcomes**: Where this could go
+
+Format: One-page brief I can read in 10 minutes before meeting
+```
+
+### 14. Historical Document Mining
+**Use case**: Old project docs, need to extract lessons learned
+
+```
+Analyze this [past project document/post-mortem/plan]:
+
+[paste or upload]
+
+Extract:
+
+**What We Planned**:
+- Original goals
+- Approach
+- Timeline
+- Budget
+
+**What Actually Happened**:
+- Outcomes vs plan
+- What changed
+
+**Lessons Learned**:
+- What worked
+- What didn't
+- Why
+
+**Applicable to Current Project**:
+- What insights apply to [current project]
+- What mistakes to avoid
+- What successes to replicate
+
+[paste or upload document]
+```
+
+### 15. Vendor/Proposal Scoring
+**Use case**: 3 vendor proposals, need objective comparison
+
+```
+Score these vendor proposals against our criteria:
+
+Evaluation criteria:
+- [Criterion 1]: Weight [%] - [what good looks like]
+- [Criterion 2]: Weight [%] - [what good looks like]
+- [Criterion 3]: Weight [%] - [what good looks like]
+
+[Upload all vendor proposals]
+
+Create scoring matrix:
+
+| Vendor | Criterion 1 | Criterion 2 | Criterion 3 | Total Score | Rank |
+|--------|-------------|-------------|-------------|-------------|------|
+
+For each vendor:
+- Score (1-10)
+- Rationale (evidence from proposal, page #)
+- Strengths
+- Weaknesses
+- Deal-breakers (if any)
+
+**Recommendation**: Which vendor and why
+```
+
+### 16. Compliance Check
+**Use case**: Document needs to meet specific guidelines/standards
+
+```
+Check this document for compliance with [standard/guideline/policy]:
+
+Requirements it must meet:
+- [Requirement 1]
+- [Requirement 2]
+- [Requirement 3]
+
+[paste or upload document]
+
+Create compliance report:
+
+| Requirement | Compliant? | Evidence/Gap | Fix Needed |
+|-------------|-----------|--------------|------------|
+
+**Compliance Score**: [X]% compliant
+
+**Critical Gaps**: Must-fix items
+
+**Minor Gaps**: Should-fix items
+
+**Recommendations**: How to achieve full compliance
+```
+
+---
+
+## Best Practices
+
+**Do:**
+✅ Upload PDFs directly to ChatGPT Plus/Claude Pro for best results
+✅ Be specific about what you're looking for ("extract pricing" vs "summarize")
+✅ Ask for page numbers so you can verify
+✅ Use for first-pass review, verify critical details yourself
+✅ Combine multiple prompts (extract + analyze + compare)
+
+**Don't:**
+❌ Trust AI blindly with legal/financial documents (always verify)
+❌ Share confidential documents (use anonymized versions for testing)
+❌ Skip human review of outputs (AI can miss context)
+❌ Use generic prompts ("summarize this") - be specific
+❌ Forget to specify output format (table, bullets, brief)
+
+---
+
+## Pro Tips
+
+**Claude vs ChatGPT for documents:**
+- **Claude**: Better for very long documents (200+ pages), detailed analysis
+- **ChatGPT**: Faster, good for most documents under 100 pages
+
+**Upload documents directly** rather than copy-pasting when possible (preserves formatting, page numbers)
+
+**Chain prompts** for complex analysis:
+1. First: "Extract key data to table"
+2. Then: "Analyze this table for trends and insights"
+3. Finally: "Recommend actions based on analysis"
+
+**Save templates** for recurring document types (contracts, proposals, reports)
+
+---
+
+**Related guides:**
+- [Document Processing Guide](../daily-essentials/document-processing) - Complete workflow
+- [Data Analysis Prompts](./data-analysis) - For spreadsheets and data
+- [ChatGPT Projects](../guides/chatgpt-projects) - Save document context

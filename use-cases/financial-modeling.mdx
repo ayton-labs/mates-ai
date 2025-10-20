@@ -1,0 +1,609 @@
+---
+title: Financial Modeling & Analysis with AI
+description: Budgets, forecasts, scenarios - build financial models faster
+---
+
+**Stop spending days in Excel. Build financial models in hours.**
+
+AI can help you create budgets, forecast revenue, model scenarios, analyze profitability, and explain complex financial concepts - without being a finance expert.
+
+---
+
+## Use Case #1: Annual Budget Planning
+
+**Problem**: Building budgets from scratch takes weeks and endless revisions.
+
+**AI Solution**: Draft comprehensive budgets in 2-3 hours.
+
+**Prompt:**
+```
+Help me create an annual budget for [department/company] for [year].
+
+Current baseline (last year's actuals):
+- Revenue: [$amount]
+- Expenses by category:
+  - Payroll: [$amount]
+  - Marketing: [$amount]
+  - Software/tools: [$amount]
+  - Office/facilities: [$amount]
+  - Other: [$amount]
+
+Growth assumptions for next year:
+- Revenue growth: [%]
+- Headcount additions: [number of hires]
+- New initiatives: [list]
+
+Create a detailed budget with:
+
+1. **Revenue projections** (by month, by product/service if applicable)
+2. **Expense categories** with monthly breakdown
+3. **Headcount plan** (when to hire, fully-loaded costs)
+4. **One-time vs recurring expenses**
+5. **Key assumptions documented**
+6. **Profitability by quarter**
+7. **Cash flow implications**
+
+Present as Excel-ready format with formulas explained.
+```
+
+**Follow-up prompt:**
+```
+Now create 3 scenarios:
+- **Conservative** (10% lower revenue)
+- **Base case** (our plan)
+- **Aggressive** (20% higher revenue)
+
+For each scenario, show:
+- Revenue
+- Key expense adjustments
+- Profitability
+- When we'd need to adjust hiring
+
+Present as scenario comparison table.
+```
+
+**Time saved**: 6-8 hours of budget modeling
+
+---
+
+## Use Case #2: Revenue Forecasting
+
+**Problem**: Forecasting revenue requires analyzing historical trends and making assumptions.
+
+**AI Solution**: Build forecasts in 45 minutes.
+
+**Prompt:**
+```
+Create a revenue forecast for [time period].
+
+Historical data (paste your data):
+[Month/Quarter | Revenue | # Customers | Avg Deal Size | etc.]
+
+Or describe trends:
+- Last 12 months growth rate: [%]
+- Seasonality patterns: [description]
+- Recent changes: [new products, market shifts, etc.]
+
+Assumptions:
+- Expected growth rate: [%]
+- New products launching: [when, expected revenue]
+- Sales team expansion: [when, ramp time]
+- Market conditions: [headwinds or tailwinds]
+
+Create forecast showing:
+1. **Monthly revenue projection**
+2. **Confidence intervals** (best/worst/likely)
+3. **Key drivers** (what needs to happen to hit forecast)
+4. **Sensitivity analysis** (impact of 10% miss on key assumptions)
+5. **Leading indicators to track**
+
+Explain methodology and show your work.
+```
+
+**Output example:**
+```
+**Revenue Forecast: Q1-Q4 2025**
+
+| Month | Conservative | Base Case | Aggressive |
+|-------|--------------|-----------|------------|
+| Jan | $450K | $500K | $550K |
+| Feb | $470K | $525K | $580K |
+...
+
+**Key Assumptions:**
+1. 5% month-over-month growth (based on 12-month average)
+2. New product adds $50K/month starting Q2
+3. 2 new AEs ramp in Q3 ($75K/month when fully ramped)
+
+**Sensitivity Analysis:**
+- If growth rate is 3% instead of 5%: -$120K by year-end
+- If new product delays 1 quarter: -$300K
+- If AE ramp takes 2 months longer: -$150K
+
+**Leading Indicators:**
+- Pipeline coverage (need 3x to hit forecast)
+- Win rate (need to maintain 25%+)
+- Average deal size (assume $15K, watch for drift)
+```
+
+**Time saved**: 2-3 hours of modeling
+
+**Pro tip**: Upload your Excel historical data for more accurate forecasts
+
+---
+
+## Use Case #3: Profitability Analysis by Product/Customer
+
+**Problem**: Understanding which products/customers are actually profitable requires deep analysis.
+
+**AI Solution**: Profitability breakdown in 60 minutes.
+
+**Prompt:**
+```
+Analyze profitability by [product/customer segment/geography].
+
+Revenue data:
+[Paste or describe revenue by category]
+
+Cost data:
+Direct costs (COGS):
+- [Cost category 1]: $X
+- [Cost category 2]: $X
+
+Allocated costs:
+- Sales & Marketing: $X (allocate by revenue %)
+- Engineering/Product: $X (allocate by product complexity)
+- Support: $X (allocate by support tickets)
+- G&A: $X (allocate by revenue %)
+
+Calculate for each category:
+1. **Revenue**
+2. **Direct costs (COGS)**
+3. **Gross profit & margin**
+4. **Allocated expenses**
+5. **Net profit & margin**
+6. **Contribution margin**
+
+Then identify:
+- Most profitable segments
+- Loss leaders (and whether that's strategic)
+- Opportunities to improve margins
+- What to double down on vs exit
+
+Present as profitability dashboard with recommendations.
+```
+
+**Time saved**: 3-4 hours of analysis
+
+---
+
+## Use Case #4: Break-Even Analysis
+
+**Problem**: Knowing when you'll break even on new initiatives requires complex modeling.
+
+**AI Solution**: Break-even models in 30 minutes.
+
+**Prompt:**
+```
+Calculate break-even for [new product/initiative/hire].
+
+Fixed costs (one-time):
+- [Cost 1]: $X
+- [Cost 2]: $X
+Total fixed: $X
+
+Variable costs (per unit/customer):
+- [Cost 1]: $X
+- [Cost 2]: $X
+Total variable per unit: $X
+
+Revenue per unit/customer: $X
+
+Calculate:
+1. **Break-even point** (units and dollars)
+2. **Break-even timeline** (assuming [X] units/month ramp)
+3. **Payback period**
+4. **Scenario analysis**:
+   - If revenue is 20% lower
+   - If costs are 15% higher
+   - If ramp is 3 months slower
+
+Show formula and visualize break-even chart.
+
+Also calculate:
+- Month-by-month cash flow
+- Cumulative profit/loss
+- When we need to decide go/no-go
+```
+
+**Time saved**: 90 minutes of modeling
+
+---
+
+## Use Case #5: Pricing Strategy & Analysis
+
+**Problem**: Setting prices requires understanding costs, value, and competitive positioning.
+
+**AI Solution**: Pricing models in 45 minutes.
+
+**Prompt:**
+```
+Help me design pricing for [product/service].
+
+Cost structure:
+- Cost to deliver per customer: $X
+- Support cost per customer: $X
+- Sales cost (CAC): $X
+- Total cost to serve: $X
+
+Market context:
+- Competitor pricing: [range]
+- Customer willingness to pay: [research/estimates]
+- Value we deliver: [quantified if possible]
+
+Create pricing recommendations:
+
+1. **Cost-plus pricing** (cost + target margin)
+2. **Value-based pricing** (based on value delivered)
+3. **Competitive pricing** (based on market rates)
+4. **Psychological pricing** (optimal price points)
+
+For each approach, show:
+- Recommended price
+- Rationale
+- Expected margin
+- Trade-offs
+
+Then recommend:
+- **Pricing tiers** (if applicable)
+- **Discounting strategy** (annual, volume, etc.)
+- **When to raise prices**
+- **Price elasticity assumptions to test**
+
+Present as pricing strategy deck.
+```
+
+**Time saved**: 2 hours of pricing analysis
+
+---
+
+## Use Case #6: Cash Flow Forecasting
+
+**Problem**: Running out of cash is deadly, but forecasting cash flow is complex.
+
+**AI Solution**: 13-week cash flow forecasts in 30 minutes.
+
+**Prompt:**
+```
+Create a 13-week cash flow forecast.
+
+Starting cash: $X
+
+Expected cash IN (weekly):
+- Revenue collected: $X/week (describe payment terms)
+- Other income: $X
+
+Expected cash OUT (weekly):
+- Payroll: $X (bi-weekly on [day])
+- Rent: $X (monthly on [day])
+- Software/subscriptions: $X (monthly)
+- Marketing spend: $X/week
+- Other expenses: $X/week
+
+One-time events:
+- [Date]: [Item] - $X
+- [Date]: [Item] - $X
+
+Create week-by-week forecast showing:
+1. Beginning cash
+2. Cash in
+3. Cash out
+4. Net cash flow
+5. Ending cash
+
+Highlight:
+- Minimum cash balance reached (and when)
+- Weeks where cash is tight
+- Recommended cash cushion
+- When to raise if needed
+
+Also model:
+- Scenario if revenue is 30 days late
+- Scenario if we cut discretionary spend by 20%
+```
+
+**Time saved**: 90 minutes of cash flow modeling
+
+**Critical for**: Startups, high-growth companies, seasonal businesses
+
+---
+
+## Use Case #7: ROI Calculators for Customers
+
+**Problem**: Prospects ask "What's the ROI?" and you scramble to build a model.
+
+**AI Solution**: Reusable ROI calculator in 20 minutes.
+
+**Prompt:**
+```
+Create an ROI calculator for prospects evaluating [your product].
+
+Costs (what they pay):
+- Monthly subscription: $X
+- Implementation cost: $X (one-time)
+- Training/onboarding: $X (one-time)
+
+Benefits (what they save/gain):
+- Time saved: [X hours/week per person]
+- Cost per hour: $[Y] (loaded)
+- Efficiency gain: [%]
+- Error reduction: [%] → $[Z] saved
+- Revenue increase: [if applicable]
+
+Create calculator that shows:
+
+**Year 1:**
+- Total cost (subscription + one-time)
+- Total benefit (quantified)
+- Net benefit
+- ROI %
+- Payback period (months)
+
+**3-Year Total:**
+- Cumulative cost
+- Cumulative benefit
+- Total ROI
+
+**Key Assumptions:**
+- List all assumptions
+- Show sensitivity (if assumptions are 20% off)
+
+Format as:
+1. Simple version (one-pager for sales)
+2. Detailed version (spreadsheet they can customize)
+```
+
+**Time saved**: 60 minutes per ROI model
+
+**Pro tip**: Build once, reuse for every prospect
+
+---
+
+## Use Case #8: Budget vs Actual Variance Analysis
+
+**Problem**: Explaining budget variances in board meetings takes hours of prep.
+
+**AI Solution**: Variance analysis in 30 minutes.
+
+**Prompt:**
+```
+Analyze budget vs actual variance for [time period].
+
+Budget data:
+[Paste or describe budget by category]
+
+Actual data:
+[Paste actuals]
+
+Create variance report showing:
+
+For each major category:
+1. **Budget**: $X
+2. **Actual**: $Y
+3. **Variance**: $Z ($ and %)
+4. **Explanation**: Why we're over/under
+5. **Forecast impact**: Will this continue?
+6. **Action needed**: None, monitor, or correct
+
+Overall analysis:
+- Top 3 favorable variances (and why)
+- Top 3 unfavorable variances (and why)
+- Full-year forecast adjustment
+- Recommended actions
+
+Present as CFO-ready variance report with executive summary.
+```
+
+**Time saved**: 90 minutes of analysis and reporting
+
+---
+
+## Use Case #9: Unit Economics Modeling
+
+**Problem**: Understanding customer lifetime value and profitability requires complex calculations.
+
+**AI Solution**: Unit economics models in 45 minutes.
+
+**Prompt:**
+```
+Calculate unit economics for [product/business].
+
+Revenue per customer:
+- Average deal size: $X
+- Average customer lifespan: Y months
+- Expansion/upsell rate: Z%
+
+Costs per customer:
+- CAC (Customer Acquisition Cost): $X
+- COGS (Cost of Goods Sold): $X/month
+- Support cost: $X/month
+- Success/account management: $X/month
+
+Calculate:
+1. **LTV (Lifetime Value)**
+   - Formula and calculation
+   - By customer segment if applicable
+
+2. **CAC Payback Period**
+   - Months to recover acquisition cost
+   - With and without gross margin
+
+3. **LTV:CAC Ratio**
+   - Actual ratio
+   - Industry benchmark comparison
+   - Health assessment
+
+4. **Customer Profitability Timeline**
+   - Month-by-month profit per customer
+   - When they become profitable
+   - Cumulative profit over lifetime
+
+5. **Cohort Analysis** (if I provide cohort data)
+   - Retention by cohort
+   - LTV by cohort
+   - Trends over time
+
+Provide recommendations:
+- Is our LTV:CAC healthy? (target 3:1)
+- Where to improve (increase LTV or decrease CAC)
+- Customer segments to focus on
+```
+
+**Time saved**: 2-3 hours of modeling
+
+---
+
+## Use Case #10: Financial Scenario Planning
+
+**Problem**: Modeling "what if" scenarios (recession, competitor, opportunity) takes days.
+
+**AI Solution**: Scenario models in 60 minutes.
+
+**Prompt:**
+```
+Create scenario planning models for [company/department].
+
+Base case (current plan):
+- Revenue: $X
+- Expenses: $Y
+- Headcount: Z
+- Key assumptions: [list]
+
+Model these scenarios:
+
+**Scenario 1: Economic Downturn**
+- Revenue: -30%
+- Sales cycle: +2 months
+- Churn: +5%
+- What we'd do:
+  - Freeze hiring?
+  - Cut discretionary spend?
+  - Layoffs needed?
+
+**Scenario 2: Competitive Threat**
+- Market share: -15%
+- Pricing pressure: -10%
+- Higher CAC: +20%
+- What we'd do:
+  - Product investment?
+  - Sales incentives?
+  - Pricing response?
+
+**Scenario 3: Growth Opportunity**
+- Revenue: +50%
+- When to hire ahead of revenue?
+- Infrastructure needed?
+- Funding required?
+
+For each scenario, show:
+1. Financial impact (revenue, profit, cash)
+2. Trigger points (when we know we're in this scenario)
+3. Action plan (what we'd do)
+4. Decision points (when we need to decide)
+5. Leading indicators to watch
+
+Present as scenario planning deck for leadership team.
+```
+
+**Time saved**: 4-5 hours of scenario modeling
+
+---
+
+## Real-World Workflow
+
+**Using AI for financial planning:**
+
+**Monthly:**
+1. Budget vs actual variance analysis (30 min)
+2. Cash flow forecast update (20 min)
+3. Revenue forecast refresh (30 min)
+
+**Quarterly:**
+1. Profitability analysis by segment (60 min)
+2. Unit economics update (45 min)
+3. Scenario planning refresh (90 min)
+
+**Annually:**
+1. Annual budget (with AI draft: 3 hours vs 20 hours)
+2. Long-range financial plan (AI first pass: 4 hours vs 15 hours)
+3. Pricing strategy review (AI analysis: 2 hours vs 6 hours)
+
+**Total time saved per year**: 40-60 hours
+
+---
+
+## Best Practices
+
+**Do:**
+✅ Verify AI calculations (spot-check formulas)
+✅ Document assumptions clearly
+✅ Use AI for first draft, refine with domain knowledge
+✅ Test sensitivity of key assumptions
+✅ Keep historical data for AI to learn patterns
+
+**Don't:**
+❌ Blindly trust AI math (always verify)
+❌ Share confidential financial data (use fake numbers to test)
+❌ Use AI outputs without understanding methodology
+❌ Forget to update assumptions as business changes
+❌ Skip human review of strategic financial decisions
+
+---
+
+## Tools & Setup
+
+**Best AI for financial modeling:**
+- **ChatGPT Plus/Pro**: Best for calculations and Excel formula help
+- **Claude Pro**: Better for analyzing complex financial documents
+- **Excel + AI**: Use AI to write formulas, you verify in Excel
+
+**Also useful:**
+- **Google Sheets**: Can paste AI outputs directly
+- **Python**: For more complex modeling (AI can write the code)
+
+**Upgrade worth it?**
+- Yes if you do financial modeling monthly
+- Advanced data analysis features save hours
+- Can upload Excel files directly
+
+---
+
+## Common Mistakes
+
+❌ **Not verifying AI calculations** - Always spot-check math
+
+❌ **Overly precise forecasts** - AI gives exact numbers, but business is uncertain
+
+❌ **Forgetting to document assumptions** - Future you will need to know why
+
+❌ **Using AI for GAAP compliance** - Get a real accountant for official reporting
+
+❌ **Not stress-testing** - Always model downside scenarios
+
+---
+
+## Next Steps
+
+1. **Start simple**: Use AI to build your next month's budget (30 min)
+2. **Build templates**: Save your best financial modeling prompts
+3. **Verify first, trust later**: Check AI calculations until you're confident
+4. **Level up**: Once comfortable, tackle more complex models (LTV, scenarios)
+
+**Related guides:**
+- [Data Analysis Prompts](../prompts/data-analysis) - Financial analysis templates
+- [Excel Help](../prompts/data-analysis#excel--google-sheets-help) - Formula assistance
+- [ChatGPT Projects](../guides/chatgpt-projects) - Save financial context for reuse
+
+---
+
+**Disclaimer**: AI is a tool for financial analysis, not a substitute for professional financial advice, accounting, or audit. Always verify calculations and consult qualified professionals for critical financial decisions.

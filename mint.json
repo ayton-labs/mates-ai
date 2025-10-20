@@ -31,11 +31,17 @@
       "pages": ["introduction"]
     },
     {
+      "group": "Quick Wins",
+      "pages": ["resources/quick-wins"]
+    },
+    {
       "group": "Getting Started",
       "pages": [
         "getting-started/ai-101-basics",
         "getting-started/first-week-guide",
-        "getting-started/prompt-writing-guide"
+        "getting-started/prompt-writing-guide",
+        "guides/voice-mode-tricks",
+        "guides/deep-research"
       ]
     },
     {
@@ -58,41 +64,64 @@
       ]
     },
     {
+      "group": "Use Cases",
+      "pages": [
+        "use-cases/hiring-recruiting",
+        "use-cases/competitive-research",
+        "use-cases/financial-modeling",
+        "use-cases/client-deliverables"
+      ]
+    },
+    {
       "group": "Tools & Software",
       "pages": [
         "tools/chatgpt-vs-claude-vs-gemini",
-        "tools/specialized-ai-tools",
-        "tools/browser-extensions",
-        "tools/automation-platforms"
+        "tools/specialized-ai-tools"
+      ]
+    },
+    {
+      "group": "Industry Playbooks",
+      "pages": [
+        "getting-started/real-estate-ai-playbook",
+        "getting-started/sales-ai-playbook",
+        "getting-started/consulting-ai-playbook",
+        "getting-started/founder-ai-playbook"
       ]
     },
     {
       "group": "Advanced Guides",
       "pages": [
         "guides/chatgpt-projects",
+        "guides/custom-gpts",
         "guides/deep-research",
         "guides/voice-mode-tricks",
-        "guides/custom-gpts",
-        "guides/api-integrations"
+        "guides/ai-workflows",
+        "guides/ai-agents"
       ]
     },
     {
       "group": "Security & Best Practices",
       "pages": [
-        "security/data-privacy",
-        "security/enterprise-vs-free-plans"
+        "security/security-and-pricing"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/faqs",
-        "resources/quick-wins"
+        "resources/faqs"
       ]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com",
     "github": "https://github.com"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    },
+    "plausible": {
+      "domain": "your-domain.com"
+    }
   }
 }
