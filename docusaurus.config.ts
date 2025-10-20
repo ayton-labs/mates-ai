@@ -135,7 +135,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Built with Docusaurus. © ${new Date().getFullYear()} Practical AI for Mates`,
+      copyright: `© ${new Date().getFullYear()} Practical AI for Mates. Written by Ollie Ayton (<a href="mailto:ollie@aytonlabs.io">ollie@aytonlabs.io</a>)`,
     },
     prism: {
       theme: prismThemes.github,
