@@ -1,0 +1,425 @@
+---
+title: Custom GPTs for Business
+description: Build repeatable AI assistants for your team
+---
+
+**What are Custom GPTs?** Pre-configured AI assistants with specific instructions, knowledge, and tools. Think of them as specialized employees that never forget their training.
+
+**Best for**: Repeatable tasks, team workflows, standardized processes
+
+---
+
+## Custom GPTs vs Projects vs Regular Chat
+
+| Feature | Custom GPT | Project | Regular Chat |
+|---------|------------|---------|--------------|
+| **Reusable** | ✅ Share with team | ❌ Personal only | ❌ One-off |
+| **Pre-loaded Knowledge** | ✅ Upload files | ✅ Upload files | ❌ |
+| **Custom Instructions** | ✅ Built-in | ✅ Per-project | ❌ |
+| **Shareable Link** | ✅ Public or private | ❌ | ❌ |
+| **Best For** | Team workflows | Personal projects | Quick questions |
+
+**Key Difference**: Custom GPTs are **shareable tools** for your team. Projects are **personal workspaces** for complex tasks.
+
+---
+
+## Business Use Cases
+
+### 1. Brand Voice Writer
+
+**Problem**: Team writes emails/posts inconsistently
+**Solution**: GPT trained on your brand voice
+
+**Setup**:
+- Upload: 5-10 examples of on-brand content
+- Instructions: "Write in [Company]'s voice: professional but friendly, direct, no jargon. Use short sentences. Always include a clear CTA."
+- Use cases: Social posts, email campaigns, customer replies
+
+**Example Prompt**:
+> "Write a LinkedIn post announcing our new feature launch"
+
+**ROI**: 2 hours/week per team member saved on revisions
+
+---
+
+### 2. Sales Email Generator
+
+**Problem**: Reps spend hours personalizing cold outreach
+**Solution**: GPT with your pitch templates and objection handlers
+
+**Setup**:
+- Upload: Top-performing email templates, competitor comparisons, case studies
+- Instructions: "Generate personalized sales emails. Always mention specific pain points for [industry]. Include social proof. Keep under 150 words."
+- Tools: Web browsing (to research prospect's company)
+
+**Example Prompt**:
+> "Write a cold email to a VP of Sales at a 50-person SaaS company about our CRM integration"
+
+**ROI**: 10+ hours/week saved, 15% higher response rates
+
+---
+
+### 3. Meeting Notes Processor
+
+**Problem**: Meeting notes are messy and action items get lost
+**Solution**: GPT that standardizes meeting outputs
+
+**Setup**:
+- Upload: Your meeting note template
+- Instructions: "Convert raw notes into: Summary (3 bullets), Decisions Made, Action Items (owner + deadline), Follow-up Questions. Use our standard format."
+
+**Example Input**:
+> [Paste transcript or raw notes from Otter.ai]
+
+**Example Output**:
+```
+SUMMARY:
+• Decided to push product launch from June to July
+• Marketing needs 2 more weeks for campaign prep
+• Engineering confident about timeline
+
+DECISIONS:
+✓ Launch date: July 15th
+✓ Budget increase: $10K for paid ads
+✓ Hire contractor for design work
+
+ACTION ITEMS:
+→ Sarah: Finalize landing page copy (by 6/1)
+→ Mike: Review contractor proposals (by 5/28)
+→ Team: Next check-in meeting 6/5 at 2pm
+
+FOLLOW-UP:
+? Do we need legal review for new terms?
+? What's backup plan if contractor falls through?
+```
+
+**ROI**: 30 min/meeting saved, zero lost action items
+
+---
+
+### 4. Customer Support Assistant
+
+**Problem**: Support team gives inconsistent answers
+**Solution**: GPT with knowledge base and response guidelines
+
+**Setup**:
+- Upload: FAQ docs, product documentation, support scripts
+- Instructions: "Answer customer questions using our knowledge base. Tone: empathetic and solution-focused. If you don't know, say 'Let me check with the team.' Always offer next steps."
+- Capabilities: Search uploaded files
+
+**Example Prompt**:
+> "Customer asking: 'Why was I charged twice this month?'"
+
+**Example Response**:
+> "I understand billing issues are frustrating. Let me help you sort this out.
+>
+> This usually happens when:
+> 1. Your payment method was declined on the first attempt, then succeeded on retry
+> 2. You have two active subscriptions
+>
+> Can you check your account dashboard at [link] and let me know what you see under 'Billing History'?
+>
+> If you see duplicate charges, I'll escalate this to our billing team immediately and we'll process a refund within 24 hours."
+
+**ROI**: 40% faster response times, consistent quality
+
+---
+
+### 5. Job Description Writer
+
+**Problem**: Writing JDs is time-consuming and inconsistent
+**Solution**: GPT that follows your company format
+
+**Setup**:
+- Upload: 5-10 best-performing job descriptions
+- Instructions: "Write JDs in our format: Role Summary, Key Responsibilities (5-7 bullets), Requirements (Must-Have vs Nice-to-Have), Why Join Us. Tone: exciting but realistic. Include DEI statement."
+
+**Example Prompt**:
+> "Write a JD for a Senior Product Manager focused on our B2B platform"
+
+**ROI**: 2 hours saved per JD, better candidate quality
+
+---
+
+### 6. Competitive Intel Analyzer
+
+**Problem**: Sales team doesn't know latest competitor moves
+**Solution**: GPT that monitors and summarizes competitor changes
+
+**Setup**:
+- Upload: Competitor battle cards, past analysis
+- Instructions: "Analyze competitor updates. Format: What Changed, Why It Matters, How to Respond (talking points for sales), Questions to Ask Prospects."
+- Tools: Web browsing enabled
+
+**Example Prompt**:
+> "Competitor X just launched a new pricing tier at $99/mo. Analyze this."
+
+**Example Output**:
+```
+WHAT CHANGED:
+CompetitorX launched "Pro" tier at $99/mo (between their $49 Starter and $199 Business)
+
+WHY IT MATTERS:
+• Directly targets our $89/mo tier
+• Includes analytics (previously only in $199 tier)
+• Likely response to us winning 15 deals last quarter
+
+HOW TO RESPOND:
+Sales Talking Points:
+→ "They're playing catch-up. We've had this pricing for 2 years."
+→ Emphasize our superior integrations (Slack, Teams vs their basic options)
+→ Highlight our 24/7 support (they only offer email for Pro tier)
+
+QUESTIONS TO ASK PROSPECTS:
+? "Have you looked at their implementation timeline? Ours is 2 weeks vs their 6-8 weeks"
+? "Do you need API access? That's extra with them, included with us"
+```
+
+**ROI**: Sales always prepared, faster deal cycles
+
+---
+
+### 7. Content Repurposer
+
+**Problem**: Content team creates blog posts but neglects social/email
+**Solution**: GPT that adapts content across channels
+
+**Setup**:
+- Upload: Examples of your blog posts → social threads, email newsletters
+- Instructions: "Repurpose content. From blog post, create: 5 LinkedIn posts, 10 Twitter/X threads, 3 email subject lines with preview text. Maintain key points but adapt tone for each platform."
+
+**Example Prompt**:
+> "Here's our latest blog post about AI productivity [paste]. Repurpose it."
+
+**ROI**: 3x content output with same input effort
+
+---
+
+### 8. Proposal/RFP Assistant
+
+**Problem**: Responding to RFPs takes 10+ hours
+**Solution**: GPT with your case studies and capability statements
+
+**Setup**:
+- Upload: Past winning proposals, case studies, company capabilities deck
+- Instructions: "Help respond to RFPs. Extract requirements, map to our capabilities, suggest relevant case studies, flag gaps, draft responses in professional but persuasive tone."
+
+**Example Prompt**:
+> "RFP from enterprise healthcare company. Requirements: [paste]. Help me respond."
+
+**ROI**: 6 hours saved per RFP, higher win rate
+
+---
+
+## How to Build a Custom GPT
+
+**Step-by-Step** (ChatGPT Plus required):
+
+1. **Go to**: ChatGPT → Explore → Create a GPT
+2. **Name it**: Be specific (e.g., "Acme Corp Brand Voice Writer")
+3. **Description**: One-line purpose (e.g., "Writes emails and posts in Acme's brand voice")
+4. **Instructions**: Write detailed instructions
+   ```
+   You are the brand voice assistant for [Company].
+
+   TONE: Professional but warm, direct, no corporate jargon
+   STYLE: Short sentences. Active voice. Conversational.
+   STRUCTURE: Hook → Value → CTA
+
+   ALWAYS:
+   - Use "you" language (not "we")
+   - Include specific numbers/examples
+   - End with clear next step
+
+   NEVER:
+   - Use phrases like "leverage", "synergy", "paradigm"
+   - Write paragraphs longer than 3 lines
+   - Be vague about benefits
+   ```
+
+5. **Upload Knowledge**: Add PDFs, docs, past examples (up to 20 files)
+6. **Enable Capabilities**:
+   - Web browsing (for research)
+   - Code interpreter (for data analysis)
+   - DALL-E (for image generation)
+
+7. **Test it**: Run 5-10 test prompts to refine
+
+8. **Share**:
+   - **Private**: Only you
+   - **Anyone with link**: Share with team
+   - **Public**: List in GPT store
+
+---
+
+## Tips for Effective Custom GPTs
+
+**1. Be Specific in Instructions**
+- ❌ "Write good emails"
+- ✅ "Write sales emails. 100-150 words. Include: pain point, solution, social proof, CTA. Tone: professional but friendly."
+
+**2. Upload Examples, Not Just Guidelines**
+- Upload 5-10 real examples of what "good" looks like
+- GPT learns patterns from examples better than descriptions
+
+**3. Include "Never Do This" Rules**
+- Prevent common mistakes explicitly
+- Example: "Never use emojis. Never write subject lines over 50 characters."
+
+**4. Test with Edge Cases**
+- Try prompts that might confuse it
+- Add clarifications to instructions based on failures
+
+**5. Update Regularly**
+- Refresh knowledge files quarterly
+- Add new examples as you create great content
+
+---
+
+## Custom GPT vs Hiring
+
+**When to build a Custom GPT**:
+- Repeatable, high-volume tasks
+- Need consistency across team
+- Clear input → output pattern
+- Knowledge is mostly documented
+
+**When to hire a person**:
+- Complex judgment calls
+- Relationship-building required
+- Truly creative work
+- Undocumented tribal knowledge
+
+**Best approach**: Custom GPT handles the repetitive 80%, humans handle the strategic 20%
+
+---
+
+## Sharing with Your Team
+
+**ChatGPT (Easiest)**:
+1. Build the GPT
+2. Set sharing to "Anyone with link"
+3. Share link with team (they need ChatGPT Plus)
+
+**Claude (Projects, Not GPTs)**:
+- Claude doesn't have shareable custom GPTs yet
+- Use Projects for personal workflows
+- Share instructions/prompts manually with team
+
+**For Enterprise**:
+- ChatGPT Team/Enterprise: Share GPTs org-wide
+- Control who can create/use GPTs
+- Analytics on GPT usage
+
+---
+
+## 10 More Quick Custom GPT Ideas
+
+1. **Contract Reviewer**: Flags risky terms in vendor contracts
+2. **Performance Review Assistant**: Drafts reviews from notes
+3. **Product Launch Checklist**: Customized for your launch process
+4. **Investor Update Writer**: Turns metrics into narrative updates
+5. **Bug Report Formatter**: Standardizes QA reports
+6. **Weekly Standup Compiler**: Summarizes team updates
+7. **Hiring Scorecard Filler**: Helps interviewers complete evaluations
+8. **Expense Report Approver**: Flags policy violations
+9. **Onboarding Buddy**: Answers new hire questions using handbook
+10. **Quarterly Planning Assistant**: Turns goals into OKRs
+
+---
+
+## Example: Building "Sales Email Generator"
+
+**Full Instructions**:
+```
+You are the sales email assistant for [Company], a B2B SaaS platform.
+
+OBJECTIVE: Generate personalized cold outreach emails that book meetings
+
+TONE & STYLE:
+- Professional but human (not robotic)
+- Confident but not pushy
+- Specific, not generic
+- Short sentences, easy to scan
+
+EMAIL STRUCTURE:
+1. Subject line (5-7 words, personalized)
+2. Opening (mention specific trigger or insight)
+3. Value prop (1-2 sentences, their benefit)
+4. Social proof (brief example/stat)
+5. CTA (ask for 15-min call, suggest 2 time slots)
+
+ALWAYS INCLUDE:
+- Specific pain point for their industry/role
+- Quantified benefit when possible
+- Relevant customer name (use uploaded case studies)
+
+NEVER:
+- Start with "I hope this email finds you well"
+- Use phrases: "circle back", "touch base", "synergy", "leverage"
+- Write paragraphs longer than 2 lines
+- Generic benefits like "save time and money"
+- Aggressive CTAs like "Let's hop on a call RIGHT NOW"
+
+RESEARCH:
+If I provide just a company name, use web browsing to:
+- Check their recent news/funding
+- Identify likely pain points
+- Find personalization hooks
+
+LENGTH: 100-150 words max
+```
+
+**Knowledge Files**:
+- 10 top-performing email templates
+- 5 case studies with results
+- Competitor comparison sheet
+- Objection handling guide
+
+**Test Prompts**:
+1. "Write email to VP Sales at 50-person fintech startup"
+2. "Write follow-up email (they didn't respond to first email)"
+3. "Write email mentioning they just raised Series A"
+
+---
+
+## Common Mistakes to Avoid
+
+**1. Too Vague**: "Help with marketing"
+- Fix: "Write LinkedIn posts about our product launches in our brand voice"
+
+**2. Too Complex**: Trying to make one GPT do everything
+- Fix: Build multiple focused GPTs
+
+**3. No Examples**: Just instructions without samples
+- Fix: Upload 5-10 real examples
+
+**4. Not Testing**: Build and share without validation
+- Fix: Run 20+ test prompts yourself first
+
+**5. Set and Forget**: Never updating
+- Fix: Monthly review and refresh knowledge
+
+---
+
+## Getting Started This Week
+
+**Day 1**: Pick one repeatable task that takes your team 2+ hours/week
+**Day 2**: Collect 5-10 examples of good outputs
+**Day 3**: Write instructions (use template above)
+**Day 4**: Build and test the GPT
+**Day 5**: Share with 2-3 team members for feedback
+
+**Start small. One GPT that saves 3 hours/week is worth $5K+/year.**
+
+---
+
+## Learn More
+
+- [ChatGPT Projects Guide](./chatgpt-projects) - Personal AI workspaces
+- [Prompt Writing Guide](../getting-started/prompt-writing-guide) - Better instructions
+- [Email Communication Prompts](../prompts/email-communication) - Ready-to-use templates
+
+---
+
+**Bottom line**: Custom GPTs turn your best practices into shareable AI assistants. Start with one high-volume workflow, nail it, then expand. Your team will wonder how they lived without them.

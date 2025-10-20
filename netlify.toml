@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'Mintlify sites deploy to Mintlify Cloud' && exit 0"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "https://mintlify.com/docs/quickstart"
+  status = 301
+  force = true

@@ -1,0 +1,286 @@
+---
+title: AI Agents
+description: What they are, why everyone's talking about them, and whether you need them
+---
+
+**Short version**: AI Agents are AI tools that work autonomously across multiple steps. Most people don't need them yet.
+
+---
+
+## What Are AI Agents?
+
+**Traditional AI** (like ChatGPT): You ask, it answers. One turn, one response.
+
+**AI Agents**: You give a goal, they figure out the steps, execute them, and deliver results - without you manually guiding each step.
+
+**Simple example**:
+- **Traditional**: "Write me a market research report on competitors" → You get a draft, then you have to manually search for data, fact-check, format, etc.
+- **Agent**: "Research our top 5 competitors and create a comparison report" → Agent searches the web, compiles data, analyzes it, creates the report, all autonomously.
+
+---
+
+## Why Everyone's Talking About Them
+
+**The Promise**: AI that doesn't just answer questions, but actually DOES work for you.
+
+**What makes it exciting**:
+- **Multi-step tasks**: Agents can chain together 5, 10, 20+ actions
+- **Tool use**: Agents can search the web, run code, access APIs, use software
+- **Autonomous**: Less hand-holding, more "set it and forget it"
+- **Goal-oriented**: You define the outcome, agent figures out how
+
+**Examples of what's possible**:
+- "Monitor competitor pricing daily and alert me to changes"
+- "Scrape these 50 websites, extract key data, and build a comparison spreadsheet"
+- "Draft weekly reports by pulling data from 3 different systems"
+
+---
+
+## The Reality Check
+
+### What Works Today (Barely)
+
+✅ **Simple automation**: Monitoring, scraping, data collection
+✅ **Research tasks**: Multi-source research, competitive analysis
+✅ **Coding assistants**: Cursor and similar tools with agentic workflows
+✅ **Customer support**: Answering FAQs, routing inquiries
+
+### What Doesn't Work Yet
+
+❌ **Complex business decisions**: Still need human judgment
+❌ **Reliability**: Agents make mistakes, go off track, hallucinate
+❌ **Cross-platform work**: Most can't actually control your apps (Gmail, Slack, CRM)
+❌ **Nuanced tasks**: Anything requiring taste, creativity, or context
+
+**Bottom line**: Agents are promising, but early. Most are research projects, not production tools.
+
+---
+
+## Do You Actually Need AI Agents?
+
+### You DON'T need agents if:
+
+❌ ChatGPT/Claude already solves your use case
+
+❌ You're doing one-off tasks, not repetitive workflows
+
+❌ You need reliability over innovation
+
+❌ You're not technical (most agent tools require coding)
+
+### You MIGHT benefit from agents if:
+
+✅ You have highly repetitive research/data tasks
+
+✅ You're comfortable with technical tools
+
+✅ You can tolerate failures and iterate
+
+✅ You're in software development (coding agents work better)
+
+---
+
+## Agent Examples You Can Use Today
+
+### 1. Custom GPTs (Easiest)
+
+**What it is**: ChatGPT Plus feature - pre-configured GPTs with specific instructions and knowledge.
+
+**How it works**:
+- You create a GPT with custom instructions
+- It "remembers" how to handle specific tasks
+- You can share it with teammates
+
+**Agent-like qualities**:
+- Consistent behavior across uses
+- Can access web search and tools
+- Can be given multi-step workflows
+
+**Limitations**:
+- Still requires you to initiate each use
+- Can't run autonomously in background
+- Can't directly access your software
+
+**Best for**: Standardized tasks like "Sales Email Writer", "Meeting Notes Processor", "Brand Voice Checker"
+
+[See full Custom GPTs guide →](./custom-gpts)
+
+---
+
+### 2. ChatGPT Projects (Personal Agents)
+
+**What it is**: ChatGPT feature that maintains context across multiple conversations.
+
+**How it works**:
+- Upload files, documents, data
+- Set custom instructions for how AI should behave
+- All chats in that project have that context
+
+**Agent-like qualities**:
+- Persistent memory of your work
+- Consistent approach to tasks
+- Can reference uploaded files automatically
+
+**Limitations**:
+- Not shareable with team (personal only)
+- Still manual - you start each conversation
+- Can't run autonomously
+
+**Best for**: Personal workflows like "Client Project X", "Weekly Reporting", "Content Strategy"
+
+[See full Projects guide →](./chatgpt-projects)
+
+---
+
+### 3. Claude Projects (Similar to ChatGPT)
+
+**What it is**: Claude's version of persistent context workspaces.
+
+**How it works**:
+- Add project knowledge (docs, data, context)
+- Set custom instructions
+- All chats reference that knowledge
+
+**Agent-like qualities**:
+- Deep context on specific projects
+- Consistent outputs
+- Can handle 200K+ token context (huge files)
+
+**Limitations**:
+- Same as ChatGPT Projects
+- Not autonomous
+- Personal, not shareable
+
+**Best for**: Deep work requiring lots of context (research, analysis, long documents)
+
+---
+
+### 4. Coding Agents (Cursor, Lovable, etc.)
+
+**What it is**: AI-powered code editors that can write, edit, and refactor code autonomously.
+
+**Examples**:
+- **Cursor**: AI code editor that can modify multiple files
+- **Lovable**: Builds full apps from prompts
+- **GitHub Copilot**: AI pair programmer
+
+**Agent-like qualities**:
+- Multi-file edits
+- Can run tests, fix errors
+- Understands your codebase context
+
+**Limitations**:
+- Developer tools only
+- Requires code review
+- Best as assistants, not replacements
+
+**Best for**: Software developers building products faster
+
+[See Cursor details →](../tools/specialized-ai-tools)
+
+---
+
+### 5. Zapier AI (Coming Soon)
+
+**What it is**: Zapier adding AI agent capabilities to automation workflows.
+
+**How it works** (in theory):
+- Natural language to create automations
+- AI determines the steps needed
+- Executes across integrated apps
+
+**Why it matters**: Zapier connects to 5,000+ apps - if agents work here, game-changer.
+
+**Current state**: Limited beta, not ready for production
+
+---
+
+## True Autonomous Agents (Advanced)
+
+These require technical setup but are more powerful:
+
+### AutoGPT / BabyAGI
+- Open source agent frameworks
+- Break down goals into sub-tasks
+- Execute tasks autonomously
+
+**Problem**: Unreliable, expensive, hard to control
+
+### LangChain Agents
+- Python framework for building custom agents
+- Can connect to databases, APIs, tools
+- Full control over agent behavior
+
+**Problem**: Requires programming skills
+
+### n8n with AI
+- Workflow automation + AI capabilities
+- Can build custom agentic workflows
+- Self-hosted or cloud
+
+**Problem**: Technical setup required
+
+**Reality**: Unless you're a developer building a specific use case, these aren't practical yet.
+
+---
+
+## Should You Wait or Jump In?
+
+### Wait if:
+- You're risk-averse (agents can make costly mistakes)
+- You need reliability (they're not there yet)
+- You're not technical (setup is hard)
+- ChatGPT/Claude already works for you
+
+### Experiment if:
+- You're in tech/software (coding agents work well)
+- You have repetitive research tasks (good agent use case)
+- You're comfortable with failure (expect bugs)
+- You want to stay ahead of the curve
+
+---
+
+## What to Do Right Now
+
+**Instead of jumping to complex agents, start here**:
+
+### Level 1: Master Basic AI
+Use ChatGPT/Claude effectively for daily tasks
+- [Email Management](../daily-essentials/email-management)
+- [Document Processing](../daily-essentials/document-processing)
+- [Prompt Library](../prompts/overview)
+
+### Level 2: Use "Agent-Lite" Features
+Leverage Custom GPTs and Projects
+- [Custom GPTs Guide](./custom-gpts)
+- [ChatGPT Projects Guide](./chatgpt-projects)
+
+### Level 3: Build Simple Workflows
+Create repeatable AI workflows for common tasks
+- [AI Workflows Guide](./ai-workflows) *(coming soon)*
+
+### Level 4: True Agents (Optional)
+Only when Levels 1-3 are mastered and you have a specific need
+
+---
+
+## The Bottom Line
+
+**AI Agents are overhyped** - most people calling things "agents" are just using better prompts.
+
+**But the direction is real** - in 1-2 years, truly useful autonomous agents will exist.
+
+**For now**: Focus on mastering ChatGPT/Claude, use Custom GPTs/Projects for repeatability, and wait for true agents to mature.
+
+**Don't get FOMO** - you're not missing out. The real game-changers aren't here yet.
+
+---
+
+## Keep Learning
+
+- [Custom GPTs](./custom-gpts) - The most practical "agent-like" feature today
+- [ChatGPT Projects](./chatgpt-projects) - Personal AI assistants
+- [Voice Mode](./voice-mode-tricks) - Conversational AI
+- [Quick Wins](../resources/quick-wins) - Immediate AI value
+
+**Remember**: The best AI tool is the one you actually use consistently. Master the basics before chasing the bleeding edge.
