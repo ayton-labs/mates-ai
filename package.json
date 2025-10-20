@@ -1,0 +1,11 @@
+{
+  "name": "practical-ai-mates",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "mintlify dev",
+    "build": "mintlify build"
+  },
+  "dependencies": {
+    "mintlify": "latest"
+  }
+}
